@@ -12,11 +12,25 @@
 # z = y[0]
 # print(y)
 # print(z)
-day_of_week = input("what day is it? ")
-if day_of_week == "Thursday":
-    print("correct")
-    print(f"Congrats it is {day_of_week}")
-else:
-    print("incorrect")
-    x = "test"
-    print(f"IT IS NOT {day_of_week}")
+# day_of_week = input("what day is it? ")
+# if day_of_week == "Friday":
+#     print("correct")
+#     print(f"Congrats it is {day_of_week}")
+# else:
+#     print("incorrect")
+#     x = "test"
+#     print(f"IT IS NOT {day_of_week}")
+# odd_or_even = int(input("Input number"))
+# if (odd_or_even %2) == 0:
+#     print("even")
+# else:
+#     print("odd")
+how_was_service = int(input("Rate you serice, bad, okay, good, great, "))
+if Service == "bad"
+    print("bill -+ 0% tip")
+if Service == "okay"
+    print("bill -+ 15% tip")
+if Service == "good" 
+    print("bill -+ 20% tip")
+if Service == "great"
+    print("bill -+ 25% tip")
