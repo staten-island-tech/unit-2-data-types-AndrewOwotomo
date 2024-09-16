@@ -25,12 +25,25 @@
 #     print("even")
 # else:
 #     print("odd")
-how_was_service = int(input("Rate you serice, bad, okay, good, great, "))
-if Service == "bad"
-    print("bill -+ 0% tip")
-if Service == "okay"
-    print("bill -+ 15% tip")
-if Service == "good" 
-    print("bill -+ 20% tip")
-if Service == "great"
-    print("bill -+ 25% tip")
+# Service = input("Rate you serice, bad, okay, good, great, ")
+# bill = int(5)
+# if Service == "bad":
+#     print(bill)
+# if Service == "okay":
+#     print(bill*1.15)
+# if Service == "good":
+#     print(bill*1.2)
+# if Service == "great":
+#     print(bill*1.25)
+def find_factors(x):
+    factors[]
+    for i in range (1, x +1)
+        if x % i == 0:
+            factors.append(i)
+    return factors
+    
+number = int(Input("STick in number"))
+factors= find_factors(number)
+print(factors)
+
+
