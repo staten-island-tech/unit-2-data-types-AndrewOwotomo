@@ -35,14 +35,14 @@
 #     print(bill*1.2)
 # if Service == "great":
 #     print(bill*1.25)
+number = int(input("Stick in number"))
+
 def find_factors(x):
     factors = []
-    factors.append(i)
-    for i in factors (1, x +1):
+    for i in range (1, x + 1):
         if x % i == 0:
-            factors.append
-number = int(input("STick in number"))
+            factors.append(i)
+    return factors
 factors= find_factors(number)
 print(factors)
-
 
