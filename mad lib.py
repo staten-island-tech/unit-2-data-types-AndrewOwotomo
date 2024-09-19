@@ -35,6 +35,7 @@
 #     print(bill*1.2)
 # if Service == "great":
 #     print(bill*1.25)
+""" MY CODE FOR FACTORS
 number = int(input("Stick in number"))
 
 def find_factors(x):
@@ -45,4 +46,43 @@ def find_factors(x):
     return factors
 factors= find_factors(number)
 print(factors)
+MY CODE FOR FACTORS
+ """
+number = int(input("Stick in number"))
+number = int(input("Stick in number"))
+commonfactors = []
+def find_factors(x):
+    factors1 = []
+    for i in range (1, x + 1):
+        if x % i == 0:
+            factors1.append(i)
+    return factors1
+factors= find_factors(number)
+print(factors)
+def find_factors(x):
+    factors2 = []
+    for i in range (1, x + 1):
+        if x % i == 0:
+            factors2.append(i)
+    return factors2
+factors= find_factors(number)
+print(factors)
+
+max(max(factors), max(factors))
+commonfactors[-1]
+
+
+
+
+
+
+
+
+
+
+# x = input("fhjwfefwfe
+# ")
+# input alwys for u to type stuff
+# " eaquales string
+# floats are decimals"
 
