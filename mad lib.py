@@ -66,10 +66,10 @@ def find_factors(x):
             factors2.append(i)
     return factors2
 factors= find_factors(number)
-print(factors)
 
 max(max(factors), max(factors))
 commonfactors[-1]
+print(factors)
 
 
 
