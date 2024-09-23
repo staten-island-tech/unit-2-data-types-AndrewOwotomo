@@ -59,18 +59,15 @@ def find_factors(x):
     return factors1
 factors= find_factors(factors1)
 print(factors1)
-def find_factors(x):
-    factors2 = []
+def find_factors2(x):
     for i in range (1, x + 1):
         if x % i == 0:
             factors2.append(i)
     return factors2
-factors= find_factors(factors2)
+factors= find_factors2(factors2)
 print(factors2)
+factors2 = []
 
-max(factors1), max(factors2)
-print( factors1[-1])
-print( factors2[-1])
 
 
 
