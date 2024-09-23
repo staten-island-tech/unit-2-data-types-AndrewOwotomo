@@ -48,8 +48,8 @@ factors= find_factors(number)
 print(factors)
 MY CODE FOR FACTORS
  """
-number = int(input("Stick in number"))
-number = int(input("Stick in number"))
+factors1 = int(input("Stick in number"))
+factors2 = int(input("Stick in number"))
 commonfactors = []
 def find_factors(x):
     factors1 = []
@@ -57,20 +57,21 @@ def find_factors(x):
         if x % i == 0:
             factors1.append(i)
     return factors1
-factors= find_factors(number)
-print(factors)
+factors= find_factors(factors1)
+print(factors1)
 def find_factors(x):
     factors2 = []
     for i in range (1, x + 1):
         if x % i == 0:
             factors2.append(i)
     return factors2
-factors= find_factors(number)
-print(factors)
+factors= find_factors(factors2)
+print(factors2)
 
-max(max(factors), max(factors))
+max(factors1), max(factors2)
 print( factors1[-1])
 print( factors2[-1])
+
 
 
 
