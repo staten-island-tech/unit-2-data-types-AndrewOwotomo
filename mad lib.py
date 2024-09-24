@@ -60,6 +60,7 @@ def find_factors(x):
 factors= find_factors(factors1)
 print(factors1)
 def find_factors2(x):
+    factors2 = []
     for i in range (1, x + 1):
         if x % i == 0:
             factors2.append(i)
